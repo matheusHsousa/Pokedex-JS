@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokedex</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"   href="style.css" />
+  </head>
+  <body>
+   
+    <div id="spinner" class="spinner spinner-hidden"></div>
+    
+    <div class="borda" id="fosco">
+        <div>
+            <img  class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="" srcset="">
+      <div class="titulo">
+        <img  class="img" src="https://www.pokemongobrasil.com/wp-content/uploads/2016/08/pokebola-go.png">
+        <h1>Pokedex</h1>
+      </div>
+      <div>
+        <label for="pokemon-name">Nome do Pokemon:</label>
+      </div>
+      <div>
+        <input type="text" id="pokemon-name" name="pokemon-name" />
+      </div>
+      <div>
+        <button type="buttonPoke" class="btn btn-white btn-animate" id="button" onclick="buscarPokemon()">
+          Pesquisar Pokemon
+        </button>
+      </div>
+      <div id="pokemon-info"></div>
+    </div>
+
+    <!-- <label for="pokemon-name">Nome da baga:</label>
+    <input type="text" id="baga-name" name="pokemon-name">
+    <button type="buttonBaga" onclick="buscarBaga()">Pesquisar baga</button>
+    <div id="baga-info"></div> -->
+  </body>
+  <script src="js.js"></script>
+</html>
